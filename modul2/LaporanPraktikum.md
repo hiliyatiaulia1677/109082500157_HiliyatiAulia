@@ -33,7 +33,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/hiliyatiaulia1677/109082500157_HiliyatiAulia/blob/main/output/soal1.png)
+![Screenshot Output Unguided 1_1] (https://github.com/hiliyatiaulia1677/109082500157_HiliyatiAulia/blob/main/modul2/output/soal1.png)
 jadi program tersebut melakukan pertukaran urutan dari tiga string yang sudah dimasukkan oleh pengguna. dengan memanfaatkan variabel temp, string pertama berpindah ke posisi terakhir, sedangkan string kedua dan ketiga bergeser ke depan.
 
 ### 2. Siswa kelas IPA di salah satu sekolah menengah atas di Indonesia sedang mengadakan praktikum kimia. Di setiap percobaan akan menggunakan 4 tabung reaksi, yang mana susunan warna cairan di setiap tabung akan menentukan hasil percobaan. Siswa diminta untuk mencatat hasil percobaan tersebut. Percobaan dikatakan berhasil apabila susunan warna zat cair pada gelas 1 hingga gelas 4 secara berturutan adalah ‘merah’, ‘kuning’, ‘hijau’, dan ‘ungu’ selama 5 kali percobaan berulang. Buatlah sebuah program yang menerima input berupa warna dari ke 4 gelas reaksi sebanyak 5 kali percobaan. Kemudian program akan menampilkan true apabila urutan warna sesuai dengan informasi yang diberikan pada paragraf sebelumnya, dan false untuk urutan warna lainnya.
@@ -64,7 +64,7 @@ fmt.Print("Berhasil: ", hasil)
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/hiliyatiaulia1677/109082500157_HiliyatiAulia/blob/main/output/soal2.png)
+![Screenshot Output Unguided 1_1](https://github.com/hiliyatiaulia1677/109082500157_HiliyatiAulia/blob/main/modul2/output/soal2.png)
 Program diatas digunakan untuk mengecek apakah sebuah rangkaian percobaan praktikum kimia berhasil atau tidak dengan melakukan pengecekan sebanyak 5 kali percobaan dengan urutan warna yang benar yaitu merah kuning hijau dan ungu. Disini saya membuat 4 variabel yang bertipe data string yaitu t1, t2, t3, t4 untuk menyimpan warna pada gelas dari 1 sampai 4. Satu variabel yang bertipe data int yaitu i untuk perulangannya. Dan satu variabel yang bertipe data Boolean yaitu hasil untuk menyimpan apakah seluruh percobaan berhasil atau tidak.
 Diawal saya membuat variabel hasil bernilai true untuk mengasumsikan semua percobaan berhasil sampai terbukti. Lalu masuk pada bagian perulangan, perulangan dilakukan sebanyak 5 kali. Pengguna akan memasukkan 4 urutan warna. Lalu pada bagian if program akan mengecek urutan yang telah dimasukkan oleh pengguna jika urutannya salah maka outpunya Adalah false dan sebaliknya.
 
@@ -109,5 +109,5 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/hiliyatiaulia1677/109082500157_HiliyatiAulia/blob/main/output/soal3.png)
+![Screenshot Output Unguided 1_1](https://github.com/hiliyatiaulia1677/109082500157_HiliyatiAulia/blob/main/modul2/output/soal3.png)
 Program digunakan untuk menghitung biaya kirim berdasarkan berat parsel dalam satuan gram. Dalam func main terdapat beberapa variabel yang dideklarasikan dengan tipe data integer, yaitu beratparsel, beratkg, sisagram, biayaperkg,biayapergram, dan totalbiaya. Untuk mendapatkan berat kg maka berat dari parsel harus dibagi dengan 1000 sedangkan sisa gram yang tidak mencapai kilogram akan di modulus dengan 1000. Untuk menentukan biaya perkilogram yaitu dengan mengalikan berat kilogram dengan 10000. Pada if jika berat kilogram lebih dari 10 maka total biaya akan nol. Namun, jika berat tidak lebih dari 10 maka akan diperiksa sisa gramnya. Bila sisa gram kurang dari 500, akan dikalikan dengan 15 per gramnya. Namun, jika lebih dari 500 akan dikalikan dengan 5 per gramnya. Lalu untuk total biaya dihitung dari total biaya kilogram + biaya gram.
