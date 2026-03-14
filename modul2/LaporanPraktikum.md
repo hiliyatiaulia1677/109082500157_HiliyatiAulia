@@ -65,6 +65,7 @@ fmt.Print("Berhasil: ", hasil)
 
 ##### Output 
 ![Screenshot Output Unguided 1_1](https://github.com/hiliyatiaulia1677/109082500157_HiliyatiAulia/blob/main/output/soal2.png)
+
 Program diatas digunakan untuk mengecek apakah sebuah rangkaian percobaan praktikum kimia berhasil atau tidak dengan melakukan pengecekan sebanyak 5 kali percobaan dengan urutan warna yang benar yaitu merah kuning hijau dan ungu. Disini saya membuat 4 variabel yang bertipe data string yaitu t1, t2, t3, t4 untuk menyimpan warna pada gelas dari 1 sampai 4. Satu variabel yang bertipe data int yaitu i untuk perulangannya. Dan satu variabel yang bertipe data Boolean yaitu hasil untuk menyimpan apakah seluruh percobaan berhasil atau tidak.
 Diawal saya membuat variabel hasil bernilai true untuk mengasumsikan semua percobaan berhasil sampai terbukti. Lalu masuk pada bagian perulangan, perulangan dilakukan sebanyak 5 kali. Pengguna akan memasukkan 4 urutan warna. Lalu pada bagian if program akan mengecek urutan yang telah dimasukkan oleh pengguna jika urutannya salah maka outpunya Adalah false dan sebaliknya.
 
