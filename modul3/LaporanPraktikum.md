@@ -81,7 +81,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/hiliyatiaulia1677/109082500157_HiliyatiAulia/blob/main/modul2/output/soal2.png)
+![Screenshot Output Unguided 1_1](https://github.com/hiliyatiaulia1677/109082500157_HiliyatiAulia/blob/main/modul3/output/soal2.png)
 Penjelasan : 
 Program ini digunakan memproses angka dengan menggunakan tiga operasi sederhana namun urutannya berbeda-beda untuk setiap input. program akan meminta pengguna untuk memasukkan tiga angka yaitu a, b, dan c. untuk a, akan ditambah dengan 1 lalu dikurangi 2 kemudian hasilnya dikalikan dengan dirinya sendiri. untuk b, angka akan dikalikan dulu lalu ditambah 1 kemudian dikurangi 2. untuk c, angka dikurangi 2 lalu dikalikan dengan dirinya sendiri kemuadian ditambah 1.
 
@@ -132,6 +132,6 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/hiliyatiaulia1677/109082500157_HiliyatiAulia/blob/main/modul2/output/soal3.png)
+![Screenshot Output Unguided 1_1](https://github.com/hiliyatiaulia1677/109082500157_HiliyatiAulia/blob/main/modul3/output/soal3.png)
 Penjelasan :
 Program ini digunakan untuk mengecek sebuah titik apakah dia berada dalam satu atau dua lingkaran. func jarak digunakan untuk menghitung jarak antara titik pusat lingkaran dan titik yang akan dicek. sedangkan func didalam menentukan apakah titik tersebut berada di dalam lingkaran berdasarkan jari-jari. program akan membaca data dua lingkaran dan satu titik, lalu mengecek posisi titik terhadap masing-masing lingkaran.
